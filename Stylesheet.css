@@ -135,7 +135,7 @@ padding-top: 10rem;
  
 .section.call-to-action{
     margin-top: 2rem;
-    background-image: none;
+    background-image: none !important;
 }
 .section.call-to-action .box{
 padding:3.5rem 2.5rem;
@@ -153,8 +153,8 @@ font-weight:700;
 }
 
 .section.footer.is-primary.is-small.has-text-centered{
-    background-color:#8306ef;
-    background-image: none;
+    background-color:#8306ef!important;
+    background-image: none!important;
     margin: 0px;
     padding: 2rem;
 }
