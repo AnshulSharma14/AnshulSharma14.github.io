@@ -1,0 +1,58 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+body{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "europa",sans-serif;
+    margin:.5rem;
+}
+.container{
+    flex-grow:1;
+    margin:0 auto;
+    position: relative;
+    width:auto;
+}
+.navbar{
+    padding: 1.2rem 0;
+    box-shadow:none;
+    z-index:auto;
+    background-color:#ffff;
+    min-height:2.5rem;
+    position:relative;
+    
+}
+.navbar-brand .navbar-item .logo{
+    height:2rem;
+}
+
+.button.is-primary.is-outlined{
+    background-color: transparent;
+    border-color: #6E07F3;
+    color: #6E07F3;
+}
+.button.is-primary.is-outlined:hover{
+    background-color: #6E07F3;
+    color: #fff;
+    border-color:#6E07F3
+}
+.has-text-centered {
+    text-align: center !important;
+}
+.hero{
+    background-color: #fff;
+    color:#000;
+    padding-top: 1rem;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-body{
+    padding:1rem;
+}
+.hero.is-white .title {
+    color: #141c3a;
+    font-size: 2rem!important;
+    
+}
